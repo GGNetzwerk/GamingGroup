@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingGroup Netzwerk</title>
+    <style>
+        :root {
+            --primary-color: #5865F2;
+            --secondary-color: #2c2f33;
+            --background-color: #1e1e1e;
+            --text-color: #fff;
+            --container-width: 1200px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            background: var(--secondary-color);
+            padding: 2rem;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        .container {
+            max-width: var(--container-width);
+            margin: auto;
+            background: var(--secondary-color);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p, li {
+            font-size: 1.1rem;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li::before {
+            content: '⚔️';
+            margin-right: 10px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: var(--secondary-color);
+            text-align: center;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf GamingGroup!</h1>
+        <nav>
+            <a href="#about">Über uns</a>
+            <a href="#rules">Regeln</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h2>Über uns</h2>
+        <p>GamingGroup ist ein Minecraft CityBuild RPG Server.</p>
+        <p>Unser Projekt ist eine Minecraft Stadt mit allem drum und dran.</p>
+        <p>Bei uns gibt es Polizisten, Waffen, Ärzte, Sanitäter, Bäcker, Anwälte, Verbrecher und 2 Bürgermeister.</p>
+    </section>
+
+    <section id="rules" class="container">
+        <h2>Regeln</h2>
+        <ul>
+            <li>Sei respektvoll gegenüber anderen Spielern.</li>
+            <li>Kein Cheating oder Hacking.</li>
+            <li>Baue keine fremden Bauwerke ab.</li>
+            <li>Folge den Anweisungen des Server Teams.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Kontakt</h2>
+        <p>Für Hilfe oder Fragen treten Sie unserem <a href="https://discord.gg/g2qPXtsCnp">Discord Server</a> bei.</p>
+    </section>
+
+    <footer>
+        &copy; 2025 GamingGroup Netzwerk. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
